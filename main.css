@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,900&family=Montserrat:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,900&family=Montserrat:wght@700&display=swap');
+
+
+body{
+    background-color: #F3EAE3;
+}
+.container{
+    width: 700px;
+    height:min-content;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+.photo{
+    width: 50%;
+    display: inline-block;
+}
+.photo img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.details{
+    width: 45%;
+    float: right;
+}
+.details h5{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family:"Montserrat", serif;
+    color: #CFCED4;
+    margin-top: 35px;
+}
+.details h2{
+    font-family: "Fraunces";
+    color: #2D333A;
+    font-size: 30px;
+    margin-top: 15px;
+
+}
+.details p{
+    font-size: 14px;
+    font-family:"Montserrat", serif;
+    color: #6e6c74;
+    width: 78%;
+    line-height: 22px;
+
+}
+.discount{
+    font-family:"Fraunces";
+    font-weight: bold;
+    margin: 30px 0;
+}
+.discount del{
+    margin-left: 20px;
+    color: #6e6c74;
+}
+.discount span{
+    font-size: 30px;
+    color: #3D8168;
+}
+.details button{
+    display: block;
+    padding:20px;
+    color: white;
+    background-color: #3D8168;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    font-family:"Montserrat", serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.details button span{
+    font-size: 14px;
+    margin-right: 5px ;
+}
